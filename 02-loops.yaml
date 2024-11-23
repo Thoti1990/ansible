@@ -1,5 +1,5 @@
 - name: loops
-  hosts: localhosts
+  hosts: localhost
   become: yes
   tasks: 
   - name: print package
@@ -10,4 +10,3 @@
     - git 
     - mysql
     - postfix
-    
